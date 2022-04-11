@@ -3,14 +3,8 @@ export interface Game {
     title: string;
     price: number;
     discount: number;
+    img: '';
 }
 
-export interface GameImage {
-    id: number;
-    title: string;
-    price: number;
-    discount: number;
-    image: 'v';
-}
 
 

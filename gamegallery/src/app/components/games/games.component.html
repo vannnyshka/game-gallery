@@ -1,5 +1,3 @@
-<ul *ngFor="let game of games">
-    <li>{{game.title}}</li>
-    <nav><a>{{game.price}}</a></nav>
-    <a>{{game.discount}}</a>
-  </ul>
+<app-game-item *ngFor="let game of games"
+   [game]="game">
+  </app-game-item>
