@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { GameItemComponent } from './components/game-item/game-item.component';
 import { GamesComponent } from './components/games/games.component';
 
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { DataService } from './data.service';
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +18,9 @@ import { GamesComponent } from './components/games/games.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(DataService, { post204: false, put204: false, delay: 1000 })
   ],
   providers: [],
   bootstrap: [AppComponent]
