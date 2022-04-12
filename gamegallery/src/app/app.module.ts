@@ -9,12 +9,16 @@ import { GamesComponent } from './components/games/games.component';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { DataService } from './data.service';
 import { HttpClientModule } from '@angular/common/http';
+import { AboutComponent } from './components/about/about.component';
+import { GameItemListComponent } from './components/game-item-list/game-item-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GameItemComponent,
-    GamesComponent
+    GamesComponent,
+    AboutComponent,
+    GameItemListComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,59 @@
+.div{
+    font-family: Trebuchet MS;
+}
+
+.head-Todo {
+    background-color: #2a2a2a;
+    color:#e7e7e7;
+    display:flex;
+    padding-left: 2em;
+    font-family: Trebuchet MS;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 2.2em 1em 1em 1.4em;
+}
+
+h1 {
+    font-size: 40px;
+    color:#e7e7e7;
+    border-right: 5px solid #e9204f;
+    padding-right: 1em;
+}
+
+li {
+    color: #e7e7e7;
+    cursor: pointer;
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1.7em;
+}
+
+li:hover{
+    color: rgb(245, 245, 245);
+    background-color: rgb(126, 124, 124);
+    transition: .4s;
+    text-decoration:overline;
+    text-decoration-color: #e9204f;
+}
+
+a{
+    margin-left: 60em;
+    color: #e7e7e7;
+    cursor: pointer;
+    display: inline;
+    padding-top:0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(245, 245, 245);
+    transition: .4s;
+    border: 2px solid #e9204f;
+    border-radius: 8px;
+}

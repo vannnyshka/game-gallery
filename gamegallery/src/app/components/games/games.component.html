@@ -1,3 +1,12 @@
-<app-game-item *ngFor="let game of games"
+<nav>
+  <app-game-item-list *ngFor="let game of games"
+[game]="game">>
+</app-game-item-list>
+  
+  
+  <app-game-item *ngFor="let game of games"
    [game]="game">
   </app-game-item>
+
+
+</nav>
