@@ -1,4 +1,4 @@
-<div class="wrap">
+<div class="wrap" routerLink="/{{game.id}}">
 		<div class="informBlock">
             <img src={{game.img}}/>
 			<h5 class="mainText">{{game.title}}</h5>
@@ -6,4 +6,4 @@
 			<p class="secondText">{{game.price}} $ | {{game.discount}}%</p>
         </div>
 </div>
-
+<router-outlet></router-outlet>

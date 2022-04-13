@@ -3,6 +3,7 @@
 }
 
 .head-Todo {
+    cursor:default;
     background-color: #2a2a2a;
     color:#e7e7e7;
     display:flex;
@@ -20,40 +21,30 @@ h1 {
     color:#e7e7e7;
     border-right: 5px solid #e9204f;
     padding-right: 1em;
+    transition: .4s;
+}
+
+h1:hover{
+    transition: .4s;
+    font-size: 50px;
+    color:#e9204f;
+    border-right: 5px solid #e7e7e7;
 }
 
 li {
     color: #e7e7e7;
     cursor: pointer;
     display: inline;
+    padding-top: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
-    padding-bottom: 1.7em;
+    padding-bottom: 0.5em;
+    transition: .4s;
 }
 
 li:hover{
     color: rgb(245, 245, 245);
-    background-color: rgb(126, 124, 124);
-    transition: .4s;
-    text-decoration:overline;
-    text-decoration-color: #e9204f;
-}
-
-a{
-    margin-left: 60em;
-    color: #e7e7e7;
-    cursor: pointer;
-    display: inline;
-    padding-top:0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 0.5em;
-    text-decoration: none;
-}
-
-a:hover{
-    color: rgb(245, 245, 245);
-    transition: .4s;
-    border: 2px solid #e9204f;
     border-radius: 8px;
+    border: 2px solid #e7e7e7;
+    transition: .4s;
 }

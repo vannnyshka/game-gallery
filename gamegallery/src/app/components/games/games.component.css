@@ -4,3 +4,33 @@ app-game-item{
     margin-left: 1em;
     font-family: Trebuchet MS;
 }
+
+
+.lb{
+    position:relative;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    margin-left: 1em;
+    margin-top:1em;
+    color: #e7e7e7;
+    cursor: pointer;
+    display: inline;
+    padding-top:0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+    background:none;
+    border:1px solid;
+    border-radius: 8px;
+    border-color: #e7e7e7;
+}
+
+.lb:hover{
+    color: rgb(245, 245, 245);
+    transition: .4s;
+    border: 3px solid #e9204f;
+    border-radius: 8px;
+}
+
+

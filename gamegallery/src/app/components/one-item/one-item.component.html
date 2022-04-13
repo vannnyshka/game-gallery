@@ -1,4 +1,9 @@
-<div class="wrap" routerLink="/{{game.id}}">
+<button class="lb" routerLink="/{{game.id}}/update">Update</button>
+<button class="lb" (click)="onDelete()">Delete</button>
+<div class="Title">{{game.title}}
+</div>
+<h1>{{game.describe}}</h1>
+<div class="wrap">
     <div class="informBlock">
         <img src={{game.img}}/>
         <h5 class="mainText">{{game.title}}

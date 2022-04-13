@@ -1,0 +1,74 @@
+.ErrorBlock{
+    text-align: center;
+    display: flex;
+    color:aliceblue;
+    font-family: Trebuchet MS;
+    cursor:default;
+}
+
+.text404{
+    font-size: 16em;
+    margin-left:0.5em;
+    border-right: 2px solid #e9204f;
+    padding-right: 0.1em;
+    transition: .4s;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.text404:hover{
+    border-color: aliceblue;
+    transition: .4s;
+}
+
+.block2{
+    text-align: left;
+    margin-top: 27em;
+    margin-left: 2em;
+    transition: .4s;
+    cursor:default;
+}
+
+.h1{
+    transition: .4s;
+}
+
+.h2{
+    transition: .4s;
+}
+
+.h1:hover{
+    color:#e9204f;
+    transition: .4s;
+}
+
+.h2:hover{
+    color:#e9204f;
+    transition: .4s;
+}
+
+
+.block3{
+    display: flex;
+}
+
+button{
+    font-size: 2em;
+    margin-left:0.6em;
+    height: 2em;
+    width: 4em;
+    margin-top: 0.3em;
+    background:none;
+    border:1px solid;
+    border-radius: 8px;
+    border-color: #e7e7e7;
+    color:#e7e7e7;
+    transition: .4s; 
+}
+
+button:hover{
+    cursor: pointer;
+	transform: scale(1.04);
+    transition: .4s; 
+    border-color:#e9204f
+}

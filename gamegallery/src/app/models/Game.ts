@@ -4,6 +4,7 @@ export interface Game {
     price: number;
     discount: number;
     img: '';
+    describe: '';
 }
 
 

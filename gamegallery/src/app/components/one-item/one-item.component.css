@@ -1,0 +1,153 @@
+h1{
+    color:#e7e7e7;
+    margin-left: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-right: 25em;
+    font-size: 2em;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: #e9204f 2px solid;
+    border-bottom: #e9204f 2px solid;
+    font-family: Trebuchet MS;
+	transition: .4s;
+    cursor:default;
+}
+
+textarea{
+    color:#e7e7e7;
+    background:none;
+    border:none;
+    font-family: Trebuchet MS;
+    font-size: 1em;
+    width: 37em;
+    height: 20em;
+    transition: .4s;
+    cursor:default;
+}
+
+textarea:hover{
+    color:#e9204f;
+}
+
+h1:hover{
+    color:#e9204f;
+}
+
+
+.Title{
+    margin-left:7em;
+    font-size: 5em;
+    color:#fff;
+    font-family: Trebuchet MS;
+    cursor:default;
+}
+
+.wrap {
+    
+    text-align: center;
+    position:fixed;
+  left: 80%;
+  top: 55%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Trebuchet MS;
+	
+}
+
+.informBlock {
+	width: 100%;
+	height: 900px;
+	background: #1b1b1b;
+	padding: 0px;
+	box-sizing: border-box;
+	transition: .4s;
+    
+}
+
+.informBlock i {
+	color: #e9204f;
+	font-size: 35px;
+	margin-top: 20px;
+	transition: .4s;
+}
+
+.mainText {
+	color: #fff;
+	margin: 55px 0 0 0;
+	font-size: 20px;
+    cursor:default;
+}
+
+.underlineBlock {
+	height: 0;
+	width: 10em;
+	border-top: 3px solid #e9204f;
+	margin-top: 10px;
+	transition: .4s;
+    margin-left: 28%;
+}
+.underlineBlock1 {
+	height: 0;
+	width: 10em;
+	border-top: 3px solid #e9204f;
+	margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 0em;
+    position: absolute;
+}
+.underlineBlock2 {
+	height: 0;
+	width: 10em;
+	border-top: 3px solid #e9204f;
+	margin-top: 8em;
+    margin-bottom: 10px;
+}
+
+.secondText {
+	color: #fff;
+	font-size: 14px;
+	margin-top: 15px;
+    cursor:default;
+}
+
+.informBlock:hover i {
+	color: #fff;
+}
+
+.informBlock:hover .underlineBlock {
+	border-color: #fff;
+}
+
+.lb{
+    display: flex;
+    position:relative;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    margin-left: 3em;
+    margin-top:3em;
+    color: #e7e7e7;
+    cursor: pointer;
+    display: inline;
+    padding-top:0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+    background:none;
+    border:1px solid;
+    border-radius: 8px;
+    border-color: #e7e7e7;
+}
+
+.lb:hover{
+    color: rgb(245, 245, 245);
+    transition: .4s;
+    border: 3px solid #e9204f;
+    border-radius: 8px;
+}
+

@@ -25,5 +25,13 @@ getGames(): Observable<Game[]> {
   );
 }
 
+deleteGame(id:number): Observable<Game[]>{
+  return this.http.delete<Game[]>(`${this.gamesUrl}/${id}`,httpOptions);
+}
+
+putGame(game : Game):Observable<Game[]>{
+  return this.http.put<Game[]>(`${this.gamesUrl}/${game.id}`,game);
+}
+
   constructor(private http: HttpClient) { }
 }

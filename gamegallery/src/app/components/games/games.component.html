@@ -1,12 +1,14 @@
-<nav>
+  <button class="lb" (click)="onListBlock()">List</button>
+  <div class="listBlock" *ngIf="!blockcng">
   <app-game-item-list *ngFor="let game of games"
-[game]="game">>
+[game]="game">
 </app-game-item-list>
+</div>
   
-  
-  <app-game-item *ngFor="let game of games"
-   [game]="game">
+  <div class="cardBlock" *ngIf="blockcng">
+  <app-game-item 
+  *ngFor="let game of games"
+  [game]="game">
   </app-game-item>
-
-
-</nav>
+</div>
+<router-outlet></router-outlet>

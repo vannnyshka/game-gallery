@@ -41,6 +41,7 @@
 
 .informBlock:hover {
 	background: #e9204f;
+    transform: scale(1.05);
 }
 
 .informBlock:hover i {

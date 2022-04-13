@@ -14,7 +14,8 @@ export class GameItemComponent implements OnInit {
     title: '',
     price: 0,
     discount: 0,
-    img:''
+    img:'',
+    describe: ''
   }
   constructor() { }
 

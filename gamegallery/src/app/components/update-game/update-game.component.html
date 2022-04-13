@@ -1,0 +1,13 @@
+<div class="informBlock">
+    <img src={{game.img}}/>
+<div class="Title">{{game.title}}
+</div>
+<h1>
+    Description: <input type="describe" [(ngModel)]="game.describe"/>
+</h1>
+<h2>
+<a class="a1">Price: <input type="price" [(ngModel)]="game.price"/> $</a>
+<a class="a2">Discount: <input type="discount" [(ngModel)]="game.discount"/> %</a>
+</h2>
+</div>
+<button class="lb" (click)="onUpdate()">Update</button>
